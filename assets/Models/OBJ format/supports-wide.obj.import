@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dcksub778p13f"
+path="res://.godot/imported/supports-wide.obj-1486a4d7f973b5b4a7f1c5aac7a6b013.mesh"
+
+[deps]
+
+files=["res://.godot/imported/supports-wide.obj-1486a4d7f973b5b4a7f1c5aac7a6b013.mesh"]
+
+source_file="res://assets/Models/OBJ format/supports-wide.obj"
+dest_files=["res://.godot/imported/supports-wide.obj-1486a4d7f973b5b4a7f1c5aac7a6b013.mesh", "res://.godot/imported/supports-wide.obj-1486a4d7f973b5b4a7f1c5aac7a6b013.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false
