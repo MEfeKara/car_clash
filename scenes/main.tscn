@@ -1,6 +1,18 @@
 [gd_scene format=3 uid="uid://caqymajifpsch"]
 
 [ext_resource type="Script" uid="uid://cwwrihblfkp3a" path="res://scripts/main.gd" id="1_o5qli"]
+[ext_resource type="PackedScene" uid="uid://cij7im10k1ke1" path="res://assets/Models/GLB format/Map/Ground.glb" id="2_0wfyh"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_sugp2"]
+size = Vector3(47.096134, 0.6376343, 59.161438)
 
 [node name="Node3D" type="Node3D" unique_id=213661085]
 script = ExtResource("1_o5qli")
+
+[node name="Ground" parent="." unique_id=1277657015 instance=ExtResource("2_0wfyh")]
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Ground" unique_id=610733469]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Ground/StaticBody3D" unique_id=134293484]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.98607063, -0.18118286, 0.07009888)
+shape = SubResource("BoxShape3D_sugp2")
